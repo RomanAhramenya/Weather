@@ -1,0 +1,35 @@
+.wraper {
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid rgba(151, 22, 151, 0.603);
+  animation: header 0.5s;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.link {
+  display: block;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  color:rgb(151, 22, 151)
+}
+.link:hover {
+  font-weight: 700;
+  color: rgb(73, 3, 73);
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+@keyframes header {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: 0;
+  }
+}

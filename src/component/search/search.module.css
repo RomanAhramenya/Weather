@@ -1,0 +1,16 @@
+.wraperSearch{
+    width: 20%;
+    margin: 0 auto;
+}
+input,button,a{
+    border-radius:01rem;
+    padding: 0.2rem;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
